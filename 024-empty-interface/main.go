@@ -13,5 +13,6 @@ func Ups() any {
 }
 
 func main() {
-	fmt.Println(Ups())
+	msg := Ups()
+	fmt.Println(msg)
 }
