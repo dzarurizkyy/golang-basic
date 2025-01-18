@@ -2,6 +2,30 @@ package main
 
 import "fmt"
 
+/*
+	Slice
+	- Potongan dari data array
+	- Mirip dengan array yang membedakan adalah ukuran array bisa berubah
+	- Slice dan array selalu terkoneksi, dimana slice adalah data yang mengakses sebagian atau seluruh data di array
+*/
+
+/*
+	Detail Slice
+	- Memiliki 3 tipe data, yaitu pointer, length, dan capacity
+	- Pointer adalah penujuk data pertama di array
+	- Length adalah panjang dari slice
+	- Capacity adalah kapasitas dari slice, dimana length tidak boleh lebih dari capacity
+*/
+
+/*
+	Function Slice
+	- len(slice)                         : Untuk mendapatkan panjang
+	- cap(slice)                         : Untuk mendapatkan kapasitas
+	- append(slice, data)                : Membuat slice baru dengan menambah data ke posisi terakhir slice, jika kapasitas sudah penuh, maka akan membuat array baru
+	- make([]TypeData, length, slice)    : Membuat slice baru
+	- copy(destination, source)          : Menyalin slice dari source ke destination
+*/
+
 func main() {
 	skills := [...]string{"HTML", "CSS", "JS"}
 
@@ -11,7 +35,7 @@ func main() {
 	slice4 := skills[:]
 
 	fmt.Println(slice1, slice2, slice3, slice4)
-	
+
 	// ---------------------
 
 	days := [...]string{"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"}
