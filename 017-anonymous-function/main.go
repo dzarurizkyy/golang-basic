@@ -13,6 +13,13 @@ func registerUser(name string, blacklist Blacklist) {
 }
 
 func main() {
+	/*
+		Anonymous Function
+		- Sebelumnya setiap membuat function selalu memberikan sebuah nama pada function tersebut
+		- Namun ada kalanya lebih mudah membuat function secara langsung di variable atau parameter tanpa harus membuat function terlebih dahulu
+		- Hal tersebut dinamakan anonymous function	atau function tanpa nama
+	*/
+
 	registerUser("Dzaru", func(name string) bool { if name == "bitch" { return true }; return false })
 	registerUser("bitch", func(name string) bool { if name == "bitch" { return true }; return false })
 }

@@ -4,6 +4,12 @@ import "fmt"
 
 type Filter func(string) string
 
+/*
+	Function as Parameter
+	- Function tidak hanya disimpan didalam variable sebagai value
+	- Namun juga bisa digunakan sebagai parameter untuk function lain
+*/
+
 func sayHelloWithFilter(name string, filter Filter) {
 	filteredName := filter(name)
 	fmt.Printf("Hello, %s\n", filteredName)
