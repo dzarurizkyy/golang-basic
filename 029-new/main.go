@@ -7,8 +7,9 @@ type Address struct {
 }
 
 func main() {
-	
-	/* New
+
+	/*
+		New
 		- Sebelumnya untuk membuat pointer dengan mengggunakan operator &
 		- Golang juga memiliki function new yang bisa digunakan untuk membuat pointer
 		- Namun function new hanya mengembalikan pointer ke data kosong, artinya data tidak ada di tahap awal

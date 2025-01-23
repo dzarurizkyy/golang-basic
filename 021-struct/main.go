@@ -4,10 +4,8 @@ import "fmt"
 
 /*
 	Struct
-	- Sebuah template data yang digunakan untuk menggabungkan nol atau lebih
-	  tipe data lainnya dalam satu kesatuan
+	- Sebuah template data yang digunakan untuk menggabungkan nol atau lebih tipe data lainnya dalam satu kesatuan
 	- Representasi data dari aplikasi yang dibuat
-
 */
 
 type Customer struct {

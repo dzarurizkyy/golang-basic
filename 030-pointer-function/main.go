@@ -8,7 +8,7 @@ type Address struct {
 
 /*
 	Pointer di Function
-	- Saat membuat parameter di function, secara default adalah pass by value, artinya data akan di copy laly=u dikirim ke function tersebut
+	- Saat membuat parameter di function, secara default adalah pass by value, artinya data akan di copy lalu dikirim ke function tersebut
 	- Oleh karena itu, jika mengubah data di dalam function, data aslinya tidak akan berubah
 	- Hal ini membuat variable menjadi aman, karena tidak akan bisa diubah
 	- Namun bila ingin membuat function yang bisa mengubah data asli parameter tersebut, dapat menggunakan pointer di function

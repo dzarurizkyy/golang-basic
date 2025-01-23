@@ -14,7 +14,7 @@ func main() {
 		- Kemampuan mengubah tipe data menjadi tipe yang diinginkan
 		- Sering digunakan ketika bertemu interface kosong
 	*/
-	
+
 	switch result.(type) {
 	case string:
 		fmt.Println("String:", result)
