@@ -32,13 +32,16 @@ func SaveData(id string, data any) error {
 }
 
 func main() {
-	err := SaveData("dzaru", nil)
+	err := SaveData("", nil)
 
 	if err != nil {
-		if validationError, ok := err.(*validationError); ok {
-			fmt.Println(validationError.Error())
-		} else if notFoundError, ok := err.(*notFoundError); ok {
-			fmt.Println(notFoundError.Error())
+		switch finalError := err.(type) {
+		case *validationError:
+			fmt.Println(finalError.Error())
+		case *notFoundError:
+			fmt.Println(finalError.Error())
+		default:
+			fmt.Println("Unknown Error")
 		}
 	} else {
 		fmt.Println("Success")
