@@ -8,7 +8,7 @@ func main() {
 	/*
 		If Expression
 		- Salah satu kata kunci yang digunakan untuk percabangan
-		- Percabanyan artinya bisa mengeksekusi kode program tertentu ketika suatu kondisi terpenuhi
+		- Percabangan artinya bisa mengeksekusi kode program tertentu ketika suatu kondisi terpenuhi
 	*/
 
 	/*

@@ -6,7 +6,7 @@ import "fmt"
 	Function
 	- Sebuah blok kode yang sengaja dibuat dalam program agar bisa digunakan berulang-ulang
 	- Cara membuatnya dengan menggunakan kata kunci func lalu diikuti dengan nama functionnya dan blok kode isi function nya
-	- Untuk mengeksekkusi function yang telah dibuat dengan memanggilnya menggunakan kata kunci nama function diikuti tanda kurung buka kurung tutup
+	- Untuk mengeksekusi function yang telah dibuat dengan memanggilnya menggunakan kata kunci nama function diikuti tanda kurung buka kurung tutup
 */
 
 /*

@@ -22,7 +22,7 @@ func main() {
 
 	fmt.Println(kirito)
 
-	// Struct Literarls
-	dzaru := Customer{"Dzaru", "Indonesia", 21}
+	// Struct Literals
+	dzaru := Customer{Name: "Dzaru", Address: "Indonesia", Age: 21}
 	fmt.Println(dzaru)
 }

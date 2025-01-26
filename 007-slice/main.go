@@ -22,7 +22,7 @@ import "fmt"
 	- len(slice)                         : Untuk mendapatkan panjang
 	- cap(slice)                         : Untuk mendapatkan kapasitas
 	- append(slice, data)                : Membuat slice baru dengan menambah data ke posisi terakhir slice, jika kapasitas sudah penuh, maka akan membuat array baru
-	- make([]TypeData, length, slice)    : Membuat slice baru
+	- make([]TypeData, length, capacity) : Membuat slice baru
 	- copy(destination, source)          : Menyalin slice dari source ke destination
 */
 

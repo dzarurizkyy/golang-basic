@@ -4,8 +4,8 @@ import "fmt"
 
 /*
 	Variadic Function
-	- Parameter yang berada di posisi terakhir memiliki dijadikan sebuah varargs
-	- Varargs artinya datanya bisa menerima lebihd dari satu input, sama seperti array
+	- Parameter yang berada di posisi terakhir, memiliki kemampuan dijadikan sebuah varargs
+	- Varargs artinya datanya bisa menerima lebih dari satu input sama seperti array
 */
 
 /*
