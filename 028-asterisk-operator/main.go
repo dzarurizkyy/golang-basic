@@ -14,7 +14,7 @@ func main() {
 		Asterisk Operator
 		- Saat mengubah variable pointer, maka yang berubah hanya variable tersebut
 		- Semua variable yang mengacu ke data yang sama tidak akan berubah
-		- Jika ingin mengubah seluruh variable yang mengacu ke data tersebut, data menggunakan asterisk operator (*)
+		- Jika ingin mengubah seluruh variable yang mengacu ke data tersebut maka menggunakan operator asterisk (*)
 	*/
 
 	*address2 = Address{"Jakarta Selatan", "DKI Jakarta", "Indonesia"}
